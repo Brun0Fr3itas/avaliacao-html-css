@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 1rem;
+}
+.layout{
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+  width: 25rem;
+  margin: 0 auto;
+}
+.header{
+  background-color: black;
+  height: 3rem;
+  width: 100%;
+}
+.main{
+  display: flex;
+  flex: 1;
+}
+.aside{
+  background-color: pink;
+  width: 3rem;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.content{
+  background-color: yellow;
+  flex: 1;
+}
+.footer{
+  background-color: brown;
+  height: 3rem;
+}
