@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    margin: 2rem;
+    padding: 5rem;
+}
+h1{
+    color: red;
+    margin-bottom: 2rem;
+}
+p{
+    margin-bottom: 2rem;
+}
+ul{
+    margin-bottom: 2rem;
+}
+ul li{
+    margin-bottom: 2rem;
+}
+img{
+    width: 25rem;
+    height: 25rem;
+}
+a{
+    margin-left: 10rem;
+    color: blue;
+}
